@@ -1,5 +1,8 @@
+import json
+
+
 class JsonState(object):
-    def __init__(fname):
+    def __init__(self, fname):
         self._fname = fname
 
     def __enter__(self):
